@@ -1,0 +1,73 @@
+{
+    "C_Cpp.errorSquiggles": "Disabled",
+    "C_Cpp.formatting": "Disabled",
+    "C_Cpp.intelliSenseMemoryLimit": 256,
+    "C_Cpp.suggestSnippets": false,
+    "C_Cpp.vcFormat.indent.caseLabels": true,
+    "editor.quickSuggestions": {   // надо понять че за коменты
+        "comments": "off",
+        "strings": "off",
+        "other": "off"
+    },
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "explorer.confirmDelete": false,
+    "C_Cpp.loggingLevel": "Warning",
+    "javascript.suggest.completeJSDocs": false,
+    "typescript.suggest.completeJSDocs": false,
+    "explorer.confirmDragAndDrop": false,
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.detectLocale": "on",
+    "telemetry.telemetryLevel": "off",
+    "editor.fontSize": 15,
+    //"ditor.autoClosingBrackets": "off",  //автоскобочки начало
+    //"editor.autoClosingDelete": "off",
+    //"editor.autoClosingOvertype": "off",
+    //"editor.autoClosingQuotes": "off", // автоскобочки конец
+    "editor.autoIndent": "full",   // это за автотаб
+    //"editor.autoSurround": "never",   // выделяешь область и обрамляешь
+    "editor.codeLens": false,  // пока не понятно, но вроде прикольно
+    "editor.comments.ignoreEmptyLines": false,
+    //"editor.glyphMargin": false,   // убирает красную точку для дебага
+    "editor.gotoLocation.multipleDefinitions": "goto",
+    "editor.gotoLocation.multipleDeclarations": "goto",
+    "editor.gotoLocation.multipleImplementations": "goto",
+    "editor.gotoLocation.multipleReferences": "goto",
+    "editor.gotoLocation.multipleTypeDefinitions": "goto",
+    //"editor.hover.enabled": false,  // убирает подсказки при наведении-говно
+    //"editor.hover.sticky": false, // туда же
+    //"editor.inlayHints.enabled": false,   // подсказки, пусть будут
+    "editor.lightbulb.enabled": true,    // подсказки
+    "editor.links": false,
+    "editor.parameterHints.enabled": true,  // тоже какие-то подсказки, пусть будут
+    "editor.cursorSurroundingLines": 2,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.inlineSuggest.enabled": false,
+    "editor.snippetSuggestions": "none",
+    "files.enableTrash": false,
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "workbench.enableExperiments": false,
+    //"workbench.startupEditor": "welcomePageInEmptyWorkbench",  //открывает окно приветствия при пустом столе
+    "workbench.preferredDarkColorTheme": "Visual Studio Light",
+    "workbench.preferredLightColorTheme": "Visual Studio Light",
+    "breadcrumbs.enabled": false,
+    "workbench.editor.enablePreview": false,
+    "zenMode.hideLineNumbers": false,
+    "task.allowAutomaticTasks": "off",
+    "task.autoDetect": "off",
+    "problems.autoReveal": false,
+    //"problems.decorations.enabled": false,
+    "security.workspace.trust.banner": "never",
+    "security.workspace.trust.enabled": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "security.workspace.trust.startupPrompt": "never",
+    "C_Cpp.intelliSenseCacheSize": 256,
+    //"editor.bracketPairColorization.enabled": false,  // подсвечивает парные скобки
+    "workbench.colorTheme": "Default Dark Modern",
+    "files.autoSave": "onWindowChange",
+
+
+
+}
