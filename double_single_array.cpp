@@ -1,9 +1,13 @@
 #include <stdio.h>
+// it works with single array like it is double; first arguments are parametres of the array
 
+int getter(int *text, int index_x, int index_y) {
+    return *(text + 2 + index_y * *(text + 1) + index_x);
+}
 void print_hype_array(int *text) {
     for (int y = 0; y < *text; y++, printf("\n")) {
-        for(int x = 2; x < *(text + 1); x++) {
-            printf("%d ", *(text + y * *(text + 1) + x));
+        for(int x = 0; x < *(text + 1); x++) {
+            printf("%d ", getter(text, x, y));
         }
     }
 }
