@@ -17,6 +17,7 @@ int main(void) {
     for (int i = 0; i < s; i++) {
         puts(text[i]);
     }
+
     for(int i = 0; i < s; i++)
         free(text[i]);
     return 0;
